@@ -2,12 +2,7 @@ import torch
 from models.segmentation.segmentation import deeplab_v2
 from utils.common import save_checkpoint
 
-# COCO pre-trained Deeplab-ResNet-101 from Hung et al.
-# (checked to be the same as the original caffe model published by the DeeplabV2 authors)
-# (_-_) Gave them a star on github to show our gratitude
-# http://vllab1.ucmerced.edu/~whung/adv-semi-seg/resnet101COCO-41f33a49.pth
-# This script matches this pre-trained model's parameter dict keys with our implementation,
-# We have 104 extra .num_batches_tracked, which are all tensor(0), others are the same
+
 hung_coco_filename = 'resnet101COCO-41f33a49.pth'
 coco = torch.load(hung_coco_filename)
 voc_net = deeplab_v2(num_classes=21)

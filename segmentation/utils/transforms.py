@@ -1,5 +1,3 @@
-# Mostly copied and modified from torch/vision/references/segmentation to support unlabeled data
-# Copied functions from fmassa/vision-1 to support multi-dimensional masks loaded from numpy ndarray
 import numpy as np
 from PIL import Image
 import random

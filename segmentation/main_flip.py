@@ -1,6 +1,3 @@
-# Recommend training a supervised baseline first,
-# then conduct self-training from it to avoid mini-batch size issues
-
 import os
 import time
 import copy
