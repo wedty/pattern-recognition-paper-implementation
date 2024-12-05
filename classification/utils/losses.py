@@ -1,4 +1,3 @@
-# Implemented upon pytorch 1.2.0
 import torch
 import math
 

@@ -1,4 +1,3 @@
-# Copied from DeepVoltaire/AutoAugment
 from PIL import Image, ImageEnhance, ImageOps
 import numpy as np
 import random

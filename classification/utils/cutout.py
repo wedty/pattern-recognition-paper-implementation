@@ -1,4 +1,3 @@
-# Copied from uoguelph-mlrg/Cutout
 import torch
 import numpy as np
 

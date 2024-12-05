@@ -1,4 +1,3 @@
-# Copied from facebookresearch/mixup-cifar10
 import torch
 import numpy as np
 

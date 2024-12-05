@@ -1,4 +1,3 @@
-# Modified from torchvision 0.4.0
 from __future__ import print_function
 from PIL import Image
 import os

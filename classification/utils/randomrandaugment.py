@@ -1,4 +1,3 @@
-# Modified from ildoonet/pytorch-randaugment
 from RandAugment.augmentations import augment_list
 import random
 
